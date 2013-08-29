@@ -1,3 +1,2 @@
-pygments: true
-server: true
-destination: ./_site
+baseurl: /thinky
+permalink: /thinky/:categories/:year/:month/:day/:title
