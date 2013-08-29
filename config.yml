@@ -1,1 +1,3 @@
-baseurl: /thinky
+pygments: true
+server: true
+destination: ./_site
