@@ -1,1 +1,2 @@
-baseurl: ../thinky
+pygments: false
+lsi: false
