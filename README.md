@@ -11,10 +11,10 @@ thinky
 + 由于第一个原因所以导致再怎么弄都没有办法，本地和远端只能有一个可以的，因为本地可以算是根目录`http://localhost:4000/`，而远端是二级目录[http://polandeme.github.io/thinky/](http://polandeme.github.io/thinky/)，虽然首页可以，但是生成的内容页面的地址是把二级的`/thinky`省略掉了，而在本地是可以的（本地是根目录），试了很多配置都不可以，问了一个qq上的朋友也是，也没有成功。  
 最后在wx学长的帮助下知道了问题所在（新建的就不对，个人页面而非项目页面），所以就想是否可以判断是在本地还是远端，不过至今没解决。wx学长也提供了很多方法想  
 用js等页面加载完后将 `/thingy` 补上去或者直接在生产的这里`{{ post.url }}`加上`/thinky`。但是感觉都麻烦，就回到了本质，做个人页面。  
-+ 好了问题发现了，就回到个人页面上了，折腾了两天了不想再折腾了，就用`jekyll new` 新建了一个简单的页面，又遇到问题了。
++ 好了问题終於发现了，就回到个人页面上了，折腾了两天了不想再折腾了，就用`jekyll new` 新建了一个简单的页面，又遇到问题了。
 `jekyll server`无法启动，[具体问题](http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl)  
 按照上面的安装了ruby1.9然后重新安装jekyll（有时一串问题），在重重艰难下，jekyll重要成功了。OMG高兴早了，
-启动后`http://localhost:4000/`是空白的，看见后才发现又有[问题](https://github.com/mojombo/jekyll/issues/1376)了：  
+启动后`http://localhost:4000/`是空白的，发现又有[问题](https://github.com/mojombo/jekyll/issues/1376)了o(╯□╰)o：  
 
 > 下载DevKit解压到某个目录，比如 E:\devkit , 在该目录中运行如下命令：
   ` ruby dk.rb init `
