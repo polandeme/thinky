@@ -1,2 +1,4 @@
-site: "/thinky"
+baseurl: /
+destination: ./_site
+
 
