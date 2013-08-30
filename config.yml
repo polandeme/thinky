@@ -1,1 +1,3 @@
-baseurl: "/thinky"
+permalink: /thinky/:year/:month/:day/:title
+baseurl: /thinky
+production_url : http://polandeme.github.io
