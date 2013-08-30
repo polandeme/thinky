@@ -15,7 +15,5 @@ test
 + 好了问题发现了，就回到个人页面上了，折腾了两天了不想再折腾了，就用`jekyll new` 新建了一个简单的页面，又遇到问题了。
 `jekyll server`无法启动，[具体问题](http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl)  
 按照上面的安装了ruby1.9然后重新安装jekyll（有时一串问题），在重重艰难下，jekyll重要成功了。OMG高兴早了，
-启动后`http://localhost:4000/`是空白的，看见后才发现又有问题了:  
-> 下载DevKit解压到某个目录，比如 E:\devkit , 在该目录中运行如下命令：
-  ruby dk.rb init
-  Read more: http://blog.chengyunfeng.com/?p=437#ixzz2dS2CEetk
+启动后`http://localhost:4000/`是空白的，看见后才发现又有问题了:
+
