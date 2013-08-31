@@ -32,10 +32,11 @@ liquid error: incompatible character encodings: UTF-8 and GBK
 解决方法将jekyll安装目录中的convertible.rb文件中的  
 
 ```
-self.content = File.read(File.join(base, name))
-````(31行左右）  
+self.content = File.read(File.join(base, name))(31行左右）
+````  
 
 改成  
+
 ```
 self.content = File.read(File.join(base, name), :encoding => "utf-8")
 ```
