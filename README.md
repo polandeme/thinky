@@ -24,7 +24,9 @@ thinky
 成功后有点小兴奋差点没跳起来-:D。  
 
 + 有高兴早了，不支持中文，如果页面中有中文就无法启动
-```liquid error: incompatible character encodings: UTF-8 and GBK ```。  
+```
+liquid error: incompatible character encodings: UTF-8 and GBK
+```
 解决方法将jekyll安装目录中的convertible.rb文件中的  
 ```self.content = File.read(File.join(base, name))````(31行左右）  
 改成  
